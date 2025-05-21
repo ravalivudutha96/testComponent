@@ -1,0 +1,4 @@
+tasks:
+  - name: Checkout feature branch
+    init: git fetch origin featureBranch
+    command: git checkout featureBranch
